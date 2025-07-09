@@ -1,0 +1,19 @@
+{
+  "name": "utensils-chat-backend",
+  "version": "1.0.0",
+  "description": "Backend for Riyaj Utensils Shop chatbot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/aiplatform": "^4.2.0",
+    "@google-cloud/vertexai": "^1.10.0",
+    "@google/genai": "^1.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "multer": "^2.0.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
